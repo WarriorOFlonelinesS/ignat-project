@@ -1,0 +1,54 @@
+.main-slider {
+  position: relative;
+}
+
+.slider-buttons {
+  position: absolute;
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 45px;
+  top: 203px 
+}
+
+.slider__arrow_left {
+  background-image: url(../images/left.svg);
+  width: 17px;
+  height: 32px;
+  top: 0px;
+  left: 0px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.slider__arrow_right {
+  background-image: url(../images/right.svg);
+  width: 17px;
+  height: 32px;
+  top: 0px;
+  left: 0px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.slider-indicators {
+  display: flex;
+  margin: 10px 0;
+  justify-content:center;
+}
+
+.slider__indicator {
+  background-color: $dark-gray;
+  width: 25px;
+  height: 6px;
+  border-radius: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.slider__indicator.active{
+  background-color: $red;
+}

@@ -1,0 +1,57 @@
+.card {
+  position: relative;
+}
+
+.card__img {
+  width: 350px;
+  margin: 0 12px;
+}
+
+.goods__title {
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.card__subtitle {
+  padding: 0 10px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.card__text {
+  width: 137px;
+  padding: 10px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.card__subtext {
+  margin-top: -20px;
+  width: 137px;
+  padding: 10px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.card__price {
+  padding: 10px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: -15px;
+  color: rgba(74, 170, 78, 1);
+}
